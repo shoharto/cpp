@@ -35,13 +35,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/shoharto/cpp">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">CPP</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    C++ programming language code practice
     <br />
     <a href="https://github.com/shoharto/cpp"><strong>Explore the docs »</strong></a>
     <br />
