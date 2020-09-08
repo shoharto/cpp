@@ -1,0 +1,125 @@
+<!-- Course Title: Web Programming 
+Section: 09
+Lab Exercise#1 for HTML
+Name: Bayes Ahmed Shoharto
+Matric Number: A18CS4051 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bayes Ahmed Shoharto">
+    <title>Activity 1</title>
+
+</head>
+
+<body>
+    <h1 style="color:red">Land Of Boxes Order Form</h1>
+    <form action="#">
+        <label for="name">Name: </label>
+        <input type="text" name="name" value="Walaa Brody" id="name">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" value="w.brody@widget-sales.com" id="email">
+        <br>
+        <label for="address">Address: </label>
+        <textarea name="address" id="" cols="20" rows="5">162 Main Road Rondebosch Cape Town</textarea>
+        <br>
+        <label for="postcode">Postcode: </label>
+        <input type="number" name="" id="" value="7700">
+        <br>
+        <br>
+        <br>
+        <table style="width:100%; border: 1px solid black;">
+            <tr>
+                <th>Product</th>
+                <th>Part Number</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>EconoBox</td>
+                <td>LB100</td>
+                <td><input type="number" value="3"></td>
+                <td>R5</td>
+                <td><input type="text" value="R15"></td>
+            </tr>
+            <tr>
+                <td>Standard Box</td>
+                <td>LB200</td>
+                <td><input type="number" value="4"></td>
+                <td>R10</td>
+                <td><input type="text" value="R40"></td>
+            </tr>
+            <tr>
+                <td>Primimum Box</td>
+                <td>LB300</td>
+                <td><input type="number" value="1"></td>
+                <td>R15</td>
+                <td><input type="text" value="R15"></td>
+            </tr>
+            <tr>
+                <td>Deluxe Box</td>
+                <td>LB400</td>
+                <td><input type="number" value="0"></td>
+                <td>R20</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Super Deluxe Box</td>
+                <td>LB500</td>
+                <td><input type="number" value="1"></td>
+                <td>R30</td>
+                <td><input type="text" value="R30"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Total</td>
+                <td><input type="text" value="R100"></td>
+            </tr>
+
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <h3>Credit Card Details</h3>
+        <label for="cardType">Card Type: </label>
+        <br>
+        <br>
+        <input type="radio" id="mastercard" name="mastercard" value="mastercard">
+        <label
+            for="mastercard">Mastercard</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="card">Card Number: </label>
+        <input type="number" value="45645">
+
+        <br>
+        <input type="radio" id="visa" name="visa" value="visa">
+
+        <label
+            for="visa">Visa</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="card">Expiry Date: </label>
+        <input type="text" value="03/99">
+
+        <br>
+        <input type="radio" id="american" name="american" value="american">
+        <label for="american">American Express</label><br>
+        <input type="radio" id="dinner" name="dinner" value="dinner">
+        <label for="dinner">Diners Club</label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="address">Delivery Address: </label>
+        <textarea name="address" id="" cols="25" rows="7">162 Main Road Rondebosch Cape Town</textarea>
+        <br>
+        <br>
+        <br>
+        <button>Send Order</button>
+        <button>Clear form</button>
+    </form>
+</body>
+
+</html>

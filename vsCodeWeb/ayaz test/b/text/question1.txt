@@ -1,0 +1,32 @@
+INTRODUCTION TO AJAX
+
+What Is AJAX?
+
+Ajax stands for Asynchronous JavaScript and XML. 
+It describes a set of development techniques used for building websites and web applications.
+
+
+AJAX’s core function is to update web content asynchronously (the “A” of AJAX), meaning a user’s
+web browser doesn’t need to reload an entire web page when only a small portion of content on
+the page needs to change.
+
+
+With Ajax,web applications can send and retrieve data from a server asynchronously without interfering
+with the display and behavior of the existing page.
+
+
+How Does It Work?
+
+
+Click on the image to learn more about AJAX.
+
+
+The above figure shows how AJAX works. The steps involve:
+
+Browser sends an XMLHttpRequest
+
+At server side:
+Server processes the HTTPRequest
+Server sends responses back to the browser
+Browser receives the responses and updates the page
+

@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    row-gap: 1px;
+    column-gap: 1px;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    text-align: center;
+}
+
+.item {
+    background-color: lightblue;
+    display: grid;
+    background-size: cover;
+}
+
+.s1 {
+    grid-auto-rows: minmax(50px,auto );
+    grid-column:1/-1 ;
+    background-color: yellow;
+}
+
+.s2 {
+   background-color: red;
+}
+
+    
+.s3 {
+   
+    grid-auto-rows: minmax(400px,auto );
+    background-color: green;
+}
+
+.s4 {
+   
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-auto-rows: minmax(50px,auto );
+    background-color: yellow;
+}

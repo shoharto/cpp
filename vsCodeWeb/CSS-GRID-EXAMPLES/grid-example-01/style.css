@@ -1,0 +1,12 @@
+
+main{
+    display: grid;
+    grid-template-rows: 60px 5fr 1fr;
+    height: calc(100vs - 20px);
+}
+
+main footer{
+    display: grid;
+    grid-template-columns: 1fr 3 fr;
+    align-items: flex-end;
+}

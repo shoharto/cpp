@@ -1,0 +1,6 @@
+milk 15 10
+laptop 3 10
+phone 3 50
+mobile 1 50
+banana 3 2.5
+pen 50 10
